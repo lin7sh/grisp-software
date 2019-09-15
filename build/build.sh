@@ -70,8 +70,8 @@ echo "#define GRISP_TOOLCHAIN_REVISION \"${TOOLCHAIN_REVISION}\"" > \
 echo "-define(GRISP_TOOLCHAIN_REVISION, \"${TOOLCHAIN_REVISION}\")." > \
 	"${PREFIX}/grisp_buildinfo.hrl"
 
-cd "${PROJECTDIR}/grisp-bootloader" && make clean all
-cd "${PROJECTDIR}/grisp-fatbench" && make clean all
-cd "${PROJECTDIR}/grisp-rtems-hw-test" && make clean all
-cd "${PROJECTDIR}/grisp-sd-sample" && make clean all
-cd "${PROJECTDIR}/grisp-simple-sample" && make clean all
+cd "${PROJECTDIR}/grisp-bootloader" && gmake clean all
+cd "${PROJECTDIR}/grisp-fatbench" && gmake clean all
+cd "${PROJECTDIR}/grisp-rtems-hw-test" && gmake clean all
+cd "${PROJECTDIR}/grisp-sd-sample" && gmake clean all
+cd "${PROJECTDIR}/grisp-simple-sample" && gmake clean all

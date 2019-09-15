@@ -15,4 +15,4 @@ PROJECTDIR="${SCRIPTDIR}/../"
 export PATH="${PREFIX}/bin:${PATH}"
 
 cd "${LIBGRISP_SOURCE_DIR}"
-make clean install
+gmake clean install

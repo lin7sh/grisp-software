@@ -15,4 +15,4 @@ PROJECTDIR="${SCRIPTDIR}/../"
 export PATH="${PREFIX}/bin:${PATH}"
 
 cd "${LIBINIH_SOURCE_DIR}"
-make clean install
+gmake clean install
